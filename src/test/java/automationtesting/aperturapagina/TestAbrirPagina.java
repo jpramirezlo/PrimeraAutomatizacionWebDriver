@@ -22,11 +22,10 @@ public class TestAbrirPagina {
     }
 
     @Test
-    public void abrirPagina() throws InterruptedException {
+    public void abrirPagina() throws {
 
         driver.manage().window().maximize();
         driver.get("http://practice.automationtesting.in/");
-
     }
 
 
