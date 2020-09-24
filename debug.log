@@ -10,3 +10,8 @@
 [0923/190200.470:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\jrami\AppData\Local\Temp\scoped_dir8588_211856036\Crashpad: El sistema no puede encontrar el archivo especificado. (0x2)
 [0923/191026.609:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\jrami\AppData\Local\Temp\scoped_dir16616_1073988299\Crashpad: El sistema no puede encontrar el archivo especificado. (0x2)
 [0923/192006.215:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\jrami\AppData\Local\Temp\scoped_dir15844_1382168126\Crashpad: El sistema no puede encontrar el archivo especificado. (0x2)
+[0923/192940.387:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\jrami\AppData\Local\Temp\scoped_dir19652_1319947813\Crashpad: El sistema no puede encontrar el archivo especificado. (0x2)
+[0923/193147.682:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\jrami\AppData\Local\Temp\scoped_dir9152_1087398345\Crashpad: El sistema no puede encontrar el archivo especificado. (0x2)
+[0923/193245.074:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\jrami\AppData\Local\Temp\scoped_dir4320_231512607\Crashpad: El sistema no puede encontrar el archivo especificado. (0x2)
+[0923/194118.939:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\jrami\AppData\Local\Temp\scoped_dir17680_1155274727\Crashpad: El sistema no puede encontrar el archivo especificado. (0x2)
+[0923/194213.780:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\jrami\AppData\Local\Temp\scoped_dir10556_1221787515\Crashpad: El sistema no puede encontrar el archivo especificado. (0x2)

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="automationtesting.aperturapagina.TestAbrirPagina" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-09-24T00:19:47" hostname="SCT1MDEWIN10" time="19.997">
+<testsuite name="automationtesting.aperturapagina.TestAbrirPagina" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-09-24T00:41:50" hostname="SCT1MDEWIN10" time="24.71">
   <properties/>
-  <testcase name="abrirPagina" classname="automationtesting.aperturapagina.TestAbrirPagina" time="19.997"/>
+  <testcase name="abrirPagina" classname="automationtesting.aperturapagina.TestAbrirPagina" time="24.71"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 17119
+  <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 31598
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-sep 23, 2020 7:19:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+sep 23, 2020 7:41:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
 ]]></system-err>
 </testsuite>
