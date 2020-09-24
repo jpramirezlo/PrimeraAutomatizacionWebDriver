@@ -1,6 +1,10 @@
 package automationtesting;
 
+import org.openqa.selenium.WebDriver;
+
 public class Utilidades {
+
+    public static WebDriver driver;
 
     public static void esperar(long cantidadTiempo) {
 
@@ -12,4 +16,6 @@ public class Utilidades {
         }
 
     }
+
+
 }
