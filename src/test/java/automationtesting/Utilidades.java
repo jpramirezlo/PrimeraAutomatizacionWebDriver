@@ -1,8 +1,11 @@
 package automationtesting;
 
+import automationtesting.registro.TestRegistro;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
-public class Utilidades {
+public class Utilidades extends TestRegistro {
 
     public static WebDriver driver;
 

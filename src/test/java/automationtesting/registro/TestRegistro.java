@@ -5,14 +5,17 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
 import java.util.Random;
 
 import static automationtesting.Constantes.*;
+import static org.junit.Assert.assertEquals;
 
 public class TestRegistro {
 
@@ -39,6 +42,10 @@ public class TestRegistro {
         }
     }
 
+    public void hacerClicBotonSubmit(WebDriver driver) {
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        jse.executeScript("arguments[0].click()", driver.findElement(By.id("submitbtn")));
+    }
 
     @Test
     public void realizarRegistro() {
@@ -58,8 +65,29 @@ public class TestRegistro {
         driver.findElement(By.xpath(CAJA_TELEFONO)).sendKeys(TELEFONO);
         seleccionarGender();
         seleccionarHobbies();
+        driver.findElement(By.id(LENGUAGE)).click();
+        driver.findElement(By.xpath(SELLECION_LENGUAGE)).click();
+        Select selSkills = new Select(driver.findElement(By.id(SKILLS)));
+        selSkills.selectByValue(VALOR_SKILLS);
+        Select selCountry = new Select(driver.findElement(By.id(COUNTRY)));
+        selCountry.selectByValue(VALOR_COUNTRY);
+        driver.findElement(By.xpath(SELECT_COUNTRY)).click();
+        driver.findElement(By.xpath(VALOR_SELECT_COUNTRY)).click();
+        Select selDateYear = new Select(driver.findElement(By.id(DATA_YEAR)));
+        selDateYear.selectByValue(VALOR_DATA_YEAR);
+        Select selDateMonth = new Select(driver.findElement(By.xpath(DATA_MONTH)));
+        selDateMonth.selectByValue(VALOR_DATA_MONTH);
+        Select selDateDay = new Select(driver.findElement(By.id(DATA_DAY)));
+        selDateDay.selectByValue(VALOR_DATA_DAY);
+        driver.findElement(By.xpath(PASSW)).click();
+        driver.findElement(By.xpath(PASSW)).sendKeys(VALOR_PASSW);
+        driver.findElement(By.xpath(CONFIRM_PASSW)).click();
+        driver.findElement(By.xpath(CONFIRM_PASSW)).sendKeys(VALOR_CONFIRM_PASSW);
+        Utilidades.esperar(10);
+        hacerClicBotonSubmit(driver);
+        Utilidades.esperar(20);
 
-
+        assertEquals(VALIDAR_REGISTRO, driver.findElement(By.xpath("//h4[1]")).getText());
         Utilidades.esperar(10);
 
     }

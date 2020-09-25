@@ -1,8 +1,4 @@
 
-w
-Gbuild/reports/tests/test/packages/automationtesting.aperturapagina.html,8\9\8907d3d02ff91e293ee51984610c3fcaeb3bdbbf
-†
-Vbuild/reports/tests/test/classes/automationtesting.aperturapagina.TestAbrirPagina.html,4\f\4fb99e63056784a2b5a1a97a7ba77849f462e865
 [
 +build/reports/tests/test/css/base-style.css,d\9\d9a3e8ca011500a21b32e71e65213d18ab3f5876
 <
@@ -29,7 +25,15 @@ U
 settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
 V
 &build/reports/tests/test/css/style.css,d\6\d67b5d9d66151bbb2bcc7d46eea3cc8da9b817c8
-
-Qbuild/test-results/test/TEST-automationtesting.aperturapagina.TestAbrirPagina.xml,2\c\2c748ed523e03d3143e12fc170824796f95ff82f
 s
 Csrc/test/java/automationtesting/aperturapagina/TestAbrirPagina.java,4\9\49022686ace5ba005cc392416462ff17a3befc01
+_
+/src/test/java/automationtesting/Constantes.java,e\6\e6d78908b5e474efb6e9e22131a42ef1c25ac29c
+t
+Dsrc/test/java/automationtesting/autenticacion/TestAutenticacion.java,6\e\6e4c583413d6a14fefc86e11113188ee1785b6f9
+o
+?src/test/java/automationtesting/navegacionframes/TestFrame.java,6\9\6902777745ccfc6f0bd1502a3dca503fbe789594
+_
+/src/test/java/automationtesting/Utilidades.java,f\1\f12b7fe138fa128d9cf043da303e4d5b0bddb72d
+j
+:src/test/java/automationtesting/registro/TestRegistro.java,5\0\506acaa5a83886185182c2d439b1933760e9ec96

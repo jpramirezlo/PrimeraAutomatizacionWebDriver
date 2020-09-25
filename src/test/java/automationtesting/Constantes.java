@@ -29,8 +29,29 @@ public class Constantes {
     public static final String TEXT_AREA_DIRECCION = "//*[@id=\"basicBootstrapForm\"]/div[2]/div/textarea";
     public static final String DIRECCION = "Calle 43 85-25";
     public static final String CAJA_EMAIL = "//*[@id=\"eid\"]/input";
-    public static final String EMAIL = "jramirezprueba@gmail.com";
+    public static final String EMAIL = "jramirezprueba1@gmail.com";
     public static final String CAJA_TELEFONO = "//*[@id=\"basicBootstrapForm\"]/div[4]/div/input";
     public static final String TELEFONO = "4569856965";
+    public static final String LENGUAGE = "msdd";
+    public static final String SELLECION_LENGUAGE = "//*[@id=\"basicBootstrapForm\"]/div[7]/div/multi-select/div[2]/ul/li[1]";
+    public static final String SKILLS = "Skills";
+    public static final String VALOR_SKILLS = "Adobe InDesign";
+    public static final String COUNTRY = "countries";
+    public static final String VALOR_COUNTRY = "Colombia";
+    public static final String SELECT_COUNTRY = "//*[@id=\"basicBootstrapForm\"]/div[10]/div/span/span[1]/span";
+    public static final String VALOR_SELECT_COUNTRY = "//*[@id=\"select2-country-results\"]/li[2]";
+    public static final String DATA_YEAR = "yearbox";
+    public static final String VALOR_DATA_YEAR = "1979";
+    public static final String DATA_MONTH = "//*[@id=\"basicBootstrapForm\"]/div[11]/div[2]/select";
+    public static final String VALOR_DATA_MONTH = "February";
+    public static final String DATA_DAY = "daybox";
+    public static final String VALOR_DATA_DAY = "6";
+    public static final String PASSW = "//*[@id=\"firstpassword\"]";
+    public static final String VALOR_PASSW = "Prueba123";
+    public static final String CONFIRM_PASSW = "//*[@id=\"secondpassword\"]";
+    public static final String VALOR_CONFIRM_PASSW = "Prueba123";
+    public static final String BOTON_SUBM = "submitbtn";
+    public static final String VALIDAR_REGISTRO = "- Double Click on Edit Icon to EDIT the Table Row.";
+
 
 }
