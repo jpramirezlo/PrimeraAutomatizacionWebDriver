@@ -83,7 +83,7 @@ public class TestRegistro {
         driver.findElement(By.xpath(PASSW)).sendKeys(VALOR_PASSW);
         driver.findElement(By.xpath(CONFIRM_PASSW)).click();
         driver.findElement(By.xpath(CONFIRM_PASSW)).sendKeys(VALOR_CONFIRM_PASSW);
-        Utilidades.esperar(10);
+        Utilidades.esperar(5);
         hacerClicBotonSubmit(driver);
         Utilidades.esperar(20);
 
